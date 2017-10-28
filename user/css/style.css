@@ -1,0 +1,332 @@
+@font-face {
+    font-family: Calibri;
+    src: url(../fonts/calibri.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+body {
+	font-size: 18px;
+	font-family: "Calibri", Calibri;
+	line-height: 1.2;
+	background-color: #f5f5f5;
+}
+
+/* Подвал */
+
+footer {
+	padding: 20px;
+	background-color: #00b4ff;
+}
+
+/* Шапка */
+
+header {
+	background-image: url('../img/gradient.png');
+}
+
+#header,
+main {
+	margin: 0 auto;
+}
+
+main {
+	width: 690px;
+}
+
+#header {
+	width: 750px;
+	height: 60px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+
+#header a {
+	color: #fff;
+	display: inline-block;
+    padding: 18px 5px;
+}
+
+#header #menu-left li {
+	text-align: center;
+	float: left;
+	margin-right: 15px;
+	overflow: hidden;
+}
+
+#header #menu-left li.current {
+	border-bottom: 3px solid #00b4ff;
+}
+
+#header #menu-left a {
+	 display: inline-block;
+	/*line-height: 57px;*/
+	padding: 18px 5px;
+/*	padding-bottom: 16px;*/
+}
+
+#header #menu-left img {
+	margin-right: 10px;
+}
+
+/* Главная*/
+
+main {
+	margin: 30px auto;
+	background-color: #fff;
+	padding: 40px 30px;
+	border: 1px solid #000;
+}
+
+main #table-menu {
+	margin-bottom:  10px;
+}
+
+main #table-menu li {
+	display: inline-block;
+	margin-right: 5px;
+	padding: 4px 0;
+	margin-bottom: 10px;
+}
+
+main #table-menu li a {
+	text-transform: capitalize;
+	padding: 2px 10px;
+	border: 1px solid #BDBDBD;
+	border-bottom: 2px solid #00b4ff;
+	/*border-radius: 50px;*/
+}
+
+main #table-top {
+	margin: 10px 0;
+	height: 30px;
+}
+
+main .table-top-left {
+	float: left;
+}
+
+main .table-top-right {
+	float: right;
+}
+
+main .table-top-right #find {
+	float: left;
+	padding: 3px 5px;
+	margin: 0 5px;
+}
+
+main .table-top-right #find input {
+	border: 0;
+	border-bottom: 1px solid #BDBDBD;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    display: none;
+}
+
+main .table-top-right #find button {
+	background-color: #fff;
+	border: 0;
+	outline: none;
+	float: right;
+}
+
+main .table-top-right #find .focus {
+    width: 150px;
+    background-color: #ffffff;
+    display: block;
+    outline: none;
+    float: left;
+}
+
+main .table-top-right .openDialogAdd {
+	padding: 4px 10px;
+	background-color: #fff;
+	border: 1px solid #BDBDBD;
+	border-radius: 2px;
+}
+
+main .table-top-right .openDialogAdd img {
+	margin-right: 5px;
+}
+
+main #table .details {
+	border: 1px solid #000;
+	border-top: 0;
+}
+
+
+main #table .details:first-child {
+	border-top: 1px solid #000;
+}
+
+main #table .details-summary {
+	text-decoration: none;
+	padding: 10px 20px;
+	height: 20px;
+	    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+main #table .details-summary .left {
+	width: 600px;
+}
+
+main #table .details-summary .left p {
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+/*main #table .details-summary .right {
+	float: right;
+}*/
+
+main #table .details-summary .right img {
+	padding-left: 5px;
+}
+
+main #table .details-content {
+	margin: 20px;
+	display: none;
+}
+
+main #table-page {
+	margin: 20px 0;
+	text-align: center;
+}
+
+main #table-page a {
+	text-decoration: none;
+}
+
+/* Диалог */
+
+#dialog {
+	position: fixed;
+	display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+#dialog button {
+	padding: 5px 10px;
+	background-color: #fff;
+	border: 1px solid #BDBDBD;
+	border-radius: 2px;
+}
+
+#dialog .dialog-overlay {
+	position: fixed;
+	background-color: #000;
+	opacity:0.8;
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+}
+
+#dialog .dialog-center {
+	height: 100%;
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+	display: -webkit-flex;
+	-webkit-flex-align: center;
+	-webkit-justify-content: center;
+    /*flex:0 1 50%;*/
+}
+
+#dialog .dialog-content {
+	margin: 0 auto;
+	position: fixed;
+	z-index: 999;
+	max-width: 400px;
+    /*min-width: 290px;*/
+    background: #fff;
+}
+
+#dialog .add,
+#dialog .edit,
+#dialog .delete,
+#dialog #user_student,
+#dialog #user_teacher,
+#dialog #user_other {
+	display: none;
+}
+
+#dialog .dialog-content .closeDialog,
+#dialog .dialog-content h2 {
+	margin: 20px;
+	margin-bottom: 5px;
+}
+
+#dialog .dialog-content h2 {
+	font-size: 20px;
+}
+
+#dialog .dialog-content .closeDialog {
+	float: right;
+	display: block;
+}
+
+#dialog .dialog-content form {
+	width: 300px;
+}
+
+#dialog .dialog-content form input {
+	width: 80%;
+	margin: 5px 0;
+	padding: 5px;
+}
+#dialog .dialog-content button {
+	margin: 10px auto;
+}
+
+#dialog .dialog-content .add form,
+#dialog .dialog-content .edit form  {
+	display: none;
+}
+
+#dialog .dialog-content .center {
+	text-align: center;
+}
+
+#dialog .dialog-content .left {
+	float: left;
+}
+
+#dialog .dialog-content .right {
+	float: right;
+}
