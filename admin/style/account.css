@@ -1,0 +1,38 @@
+main#account #information h3 {
+	border-bottom: 1px solid #e2e7ea;
+	margin-bottom: 10px;
+}
+
+main#account #information p {
+	padding: 5px;
+}
+
+
+/*#img {
+	height: 40px;
+}
+#content .content-top {
+	padding-top: 0px;
+	height: 40px;
+}
+
+#content .content-bottom {
+	margin-top: 50px;
+}
+
+#content .content-right .content-top menu {
+	margin-top: 0;
+}
+
+
+#content .content-right .content-top menu li {
+	line-height: 40px;
+}
+#content .content-left .content-top,
+#content .content-right .content-top #info {
+	display: none;
+}
+
+#content .content-left .content-bottom menu {
+    margin-top: 0;
+}*/

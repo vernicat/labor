@@ -1,0 +1,118 @@
+/*.center.search {
+	min-height: 400px;
+	max-width: 600px;
+}*/
+
+
+main#search {
+	margin-top: 40px;
+}
+
+main#search .content-left {
+	width: inherit;
+}
+
+main#search .content-right {
+	width: 650px;
+}
+
+	#content main#search .content-left {
+	    display: block;
+	}
+
+/*@media (max-width: 844px) {
+	#content main#search .content-left {
+	    display: none;
+	}
+
+	main#search .content-right {
+		width: 100%;
+	}
+}*/
+
+
+main#search .content-left p,
+main#search .content-right p {
+	margin-bottom: 10px;
+}
+
+main#search .content-left .table {
+	border: 1px solid #BDBDBD;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+main#search .content-left .table label {
+	padding: 5px 0;
+}
+
+main#search .content-left .table select {
+	width: 175px;
+	padding: 5px;
+}
+
+main#search .content-right .search-content {
+	border: 1px solid #BDBDBD;
+	max-width: 600px;
+}
+
+main#search .content-right .search-content input[type=search] {
+	border-radius: 0;
+	width: 100%;
+	border: 0;
+	border-bottom: 1px solid #BDBDBD;
+	outline: none;
+	padding: 10px 15px;
+	-webkit-appearance: none;
+}
+
+/*main#search .content-right .search-content .select .qwe{
+	overflow: auto;
+	border: 0;
+	border-bottom: 1px solid #BDBDBD;
+	padding: 0 5px;
+	display: flex;
+	justify-content: flex-start;
+}*/
+
+main#search .content-right .search-content .select li {
+	margin: 10px 3px;
+}
+
+main#search .content-right .search-content .select li a {
+	padding: 4px 10px;
+	border: 1px solid #BDBDBD;
+	border-radius: 50px;
+	color: #000;
+}
+
+main#search .content-right .search-content .table section {
+	border-top: 1px solid #BDBDBD;
+	padding: 10px 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+main#search .content-right .search-content .table section:first-child {
+	border-top: none;
+}
+
+main#search .content-right .search-content .table section .info {
+	display: flex;
+	justify-content: flex-start;
+}
+
+main#search .content-right .search-content .table section .info img {
+	height: 100px;
+	border-radius: 100%;
+}
+
+main#search .content-right .search-content .table section .info .middle {
+	margin-left: 20px;
+}
+
+main#search .content-right .search-content .table section button {
+
+}

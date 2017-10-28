@@ -1,0 +1,29 @@
+main#settings form {
+	border-top: 1px solid #e2e7ea;
+	padding: 10px 0;
+}
+
+main#settings form:first-child {
+	border-top: none;
+}
+
+main#settings form .column {
+	margin: 10px 0;
+	overflow: hidden;
+}
+
+main#settings form .column p {
+	float: left;
+	width: 150px;
+}
+
+main#settings form .column input {
+	padding: 5px;
+}
+
+main#settings form button {
+	padding: 5px 10px;
+    background-color: #fff;
+    border: 1px solid #BDBDBD;
+    border-radius: 2px;
+}

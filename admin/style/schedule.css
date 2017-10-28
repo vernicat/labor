@@ -1,0 +1,17 @@
+main#schedule table {
+	border: 1px solid #000;
+	width: 100%;
+
+}
+
+main#schedule tr {
+	overflow: hidden;
+	height: 30px;
+}
+
+main#schedule td {
+	width: 100px;
+	padding: 0 10px;
+	text-align: center;
+
+}

@@ -1,0 +1,68 @@
+main#achieve {
+	margin-top: 10px;
+/*	display: flex;
+    flex-direction: column;*/
+}
+
+main#achieve .info {
+	border-bottom: 1px solid #e2e7ea;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+main#achieve .table h3 {
+	/*display: none;*/
+	/*position: absolute;*/
+	/*margin-top: 0;*/
+}
+
+main#achieve .table {
+	display: flex;
+	flex-wrap: wrap;
+	    justify-content: space-around;
+}
+
+main#achieve .bottom {
+	display: flex;
+	justify-content: center;
+}
+
+/*main#achieve {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+    flex-wrap: wrap;
+}*/
+
+main#achieve section {
+	display: flex;
+	padding: 10px;
+	/*flex-basis: 150px;*/
+	width: 100px;
+	flex-direction: column;
+	margin: 5px;
+	align-items: center;
+	    /*flex-grow: 1;*/
+}
+
+main#achieve section p {
+	position: absolute;
+	border-radius: 50%;
+	padding: 5px 7px;
+	background-color: #46d150;
+	color: #fff;
+	font-weight: bold;
+	margin-left: 30px; 
+}
+
+main#achieve section img {
+	height: 100px;
+	width: 100px;
+}
+
+main#achieve section h3 {
+	text-align: center;
+	font-size: 16px;
+	margin-top: 10px;
+}

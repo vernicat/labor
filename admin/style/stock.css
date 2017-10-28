@@ -1,0 +1,67 @@
+main#stock .entry {
+/*	min-height: 100px;
+	max-height: 300px;*/
+	min-width: 330px;
+	display: flex;
+	justify-content: flex-start;
+	overflow: hidden;
+	padding: 0;
+}
+
+main#stock .entry:nth-last-child {
+	max-width: 330px;
+}
+
+main#stock .entry .title {
+	display: flex;
+	background-color: #00b4ff;
+	width: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+main#stock .entry .title,
+main#stock .entry .info {
+	float: left;
+}
+
+main#stock .entry .title img {
+	width: 50px;
+}
+
+/*main#stock .entry .info,
+main#stock .entry .buttonAction {
+	margin-top: 10px;
+}*/
+
+main#stock .entry .info {
+	margin: 10px;
+/*	min-width: 240px;
+	width: 60%;*/
+	    width: 100%;
+    /*margin-bottom: 31px;*/
+}
+
+/*main#stock main#stock .entry .entryInfo .{
+	line-height: 31px;
+    margin: 10px;
+}*/
+
+
+main#stock .entry .buttonAction {
+/*	border: 0;
+	background-color: #00b4ff;
+	height: 40px;
+	color: #fff;
+	width: 100%;*/
+/*	margin-top: 5px;
+	order: 1;*/
+	/*right: 0;*/
+}
+
+main#stock .entry a[name=buttonInfo] {
+	/*position: absolute;*/
+
+}

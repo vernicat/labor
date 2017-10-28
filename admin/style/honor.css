@@ -1,0 +1,35 @@
+main#honor {
+    margin-top: 40px;
+    border: 1px solid #BDBDBD;
+}
+
+main#honor table {
+	width: 100%;
+	text-align: center;
+	border: 1px solid #000;
+}
+
+main#honor table tr {
+	height: 50px;
+}
+
+main#honor table tr td:nth-child(2) {
+	min-width: 200px;
+	max-width: 300px;
+	display: flex;
+    justify-content: flex-start;
+}
+
+main#honor table tr td:nth-child(3) {
+	min-width: 120px;
+}
+
+main#honor table tr img {
+	height: 30px;
+	width: 30px;
+		    border-radius: 100%;
+	        border: 3px solid #fff;
+}
+/*table tr td:first-child {
+	width: 50px;
+}*/
